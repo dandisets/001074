@@ -7,11 +7,34 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 342047586068
+  numberOfFiles: 56
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
-citation: Kalugin, Peter N (2024) Multiplexed Sensing and Control of Neuromodulators
-  and Peptides in the Awake Brain (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001074/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - PlaneSegmentation
+  - ProcessingModule
+  - OpticalChannel
+  - ImagingPlane
+citation: Kalugin, Peter N; Andermann, Mark L (2024) Multiplexed Sensing and Control
+  of Neuromodulators and Peptides in the Awake Brain (Version draft) [Data set]. DANDI
+  archive. https://dandiarchive.org/dandiset/001074/draft
 contributor:
 - email: pkalugin@g.harvard.edu
   identifier: 0000-0003-2549-5815
@@ -21,7 +44,15 @@ contributor:
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
-- awardNumber: 1 R21 EY 035436-01
+- email: manderma@bidmc.harvard.edu
+  includeInCitation: true
+  name: Andermann, Mark L
+  roleName:
+  - dcite:Author
+  - dcite:ProjectLeader
+  schemaKey: Person
+- awardNumber: 5 R21 EY035436-02
+  includeInCitation: false
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
