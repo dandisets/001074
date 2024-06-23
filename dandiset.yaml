@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001074
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
@@ -9,9 +10,17 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Multiplexed Sensing and Control of Neuromodulators and Peptides in the Awake
-  Brain (2024). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001074/draft
+citation: Kalugin, Peter N (2024) Multiplexed Sensing and Control of Neuromodulators
+  and Peptides in the Awake Brain (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001074/draft
 contributor:
+- email: pkalugin@g.harvard.edu
+  identifier: 0000-0003-2549-5815
+  includeInCitation: true
+  name: Kalugin, Peter N
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  schemaKey: Person
 - awardNumber: 1 R21 EY 035436-01
   name: National Institutes of Health (NIH)
   roleName:
@@ -19,14 +28,22 @@ contributor:
   schemaKey: Organization
 dateCreated: '2024-06-23T14:57:38.368990+00:00'
 description: Multiplexed neuromodulator sensor recordings
+ethicsApproval: []
 id: DANDI:001074/draft
 identifier: DANDI:001074
+keywords: []
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001074/versions/draft/assets/
 name: Multiplexed Sensing and Control of Neuromodulators and Peptides in the Awake
   Brain
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
+studyTarget: []
 url: https://dandiarchive.org/dandiset/001074/draft
 version: draft
+wasGeneratedBy: []
