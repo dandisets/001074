@@ -35,8 +35,8 @@ assetsSummary:
   - OpticalChannel
   - ImagingPlane
 citation: Kalugin, Peter N; Lehtinen, Maria K; Andermann, Mark L (2026) Multiplexed
-  optical recording of sensors on a micro-endoscope (MORSE) (Version draft) [Data
-  set]. DANDI Archive. https://dandiarchive.org/dandiset/001074/draft
+  optical recording of sensors on a micro-endoscope (MORSE) (Version 0.260807.0137)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001074/0.260807.0137
 contributor:
 - email: pkalugin@g.harvard.edu
   identifier: 0000-0003-2549-5815
@@ -67,22 +67,36 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-06-23T14:57:38.368990+00:00'
+datePublished: '2026-08-07T01:37:24.402338+00:00'
 description: 'Multiplexed neuromodulator sensor recordings from Kalugin PN, et al.
   Simultaneous, real-time tracking of many neuromodulatory signals with multiplexed
   optical recording of sensors on a micro-endoscope. Neuron. 2026 Aug 5:S0896-6273(26)00537-4.
   doi: 10.1016/j.neuron.2026.07.008. Epub ahead of print. PMID: 42556335.'
+doi: 10.48324/dandi.001074/0.260807.0137
 ethicsApproval: []
-id: DANDI:001074/draft
+id: DANDI:001074/0.260807.0137
 identifier: DANDI:001074
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001074/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001074/0.260807.0137/assets.yaml
 name: Multiplexed optical recording of sensors on a micro-endoscope (MORSE)
+publishedBy:
+  endDate: '2026-08-07T01:37:24.402338+00:00'
+  id: urn:uuid:3299ef62-477b-47f7-8a7d-b5402964ea00
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-08-07T01:37:24.402338+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:cdcae53b-0bb1-4bc1-9a48-27614fd2704f
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
-url: https://dandiarchive.org/dandiset/001074/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001074/0.260807.0137
+version: 0.260807.0137
 wasGeneratedBy: []
