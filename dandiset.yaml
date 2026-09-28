@@ -35,10 +35,20 @@ assetsSummary:
   - OpticalChannel
   - ImagingPlane
 citation: Kalugin, Peter N; Lehtinen, Maria K; Andermann, Mark L (2026) Multiplexed
-  optical recording of sensors on a micro-endoscope (MORSE) (Version 0.260807.0137)
-  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001074/0.260807.0137
+  optical recording of sensors on a micro-endoscope (MORSE) (Version 0.260928.0807)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001074/0.260928.0807
 contributor:
-- email: pkalugin@g.harvard.edu
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard University
+    schemaKey: Affiliation
+  - identifier: https://ror.org/04drvxt59
+    name: Beth Israel Deaconess Medical Center
+    schemaKey: Affiliation
+  - identifier: https://ror.org/00dvg7y05
+    name: Boston Children's Hospital
+    schemaKey: Affiliation
+  email: pkalugin@g.harvard.edu
   identifier: 0000-0003-2549-5815
   includeInCitation: true
   name: Kalugin, Peter N
@@ -46,14 +56,30 @@ contributor:
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
-- email: maria.lehtinen@childrens.harvard.edu
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard University
+    schemaKey: Affiliation
+  - identifier: https://ror.org/00dvg7y05
+    name: Boston Children's Hospital
+    schemaKey: Affiliation
+  email: maria.lehtinen@childrens.harvard.edu
+  identifier: 0000-0002-7243-2967
   includeInCitation: true
   name: Lehtinen, Maria K
   roleName:
   - dcite:Author
   - dcite:ProjectLeader
   schemaKey: Person
-- email: manderma@bidmc.harvard.edu
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard University
+    schemaKey: Affiliation
+  - identifier: https://ror.org/04drvxt59
+    name: Beth Israel Deaconess Medical Center
+    schemaKey: Affiliation
+  email: manderma@bidmc.harvard.edu
+  identifier: 0000-0002-9882-933X
   includeInCitation: true
   name: Andermann, Mark L
   roleName:
@@ -61,42 +87,57 @@ contributor:
   - dcite:ProjectLeader
   schemaKey: Person
 - awardNumber: 5 R21 EY035436-02
+  identifier: https://ror.org/01cwqze88
   includeInCitation: false
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-06-23T14:57:38.368990+00:00'
-datePublished: '2026-08-07T01:37:24.402338+00:00'
+datePublished: '2026-09-28T08:07:08.642065+00:00'
 description: 'Multiplexed neuromodulator sensor recordings from Kalugin PN, et al.
   Simultaneous, real-time tracking of many neuromodulatory signals with multiplexed
   optical recording of sensors on a micro-endoscope. Neuron. 2026 Aug 5:S0896-6273(26)00537-4.
   doi: 10.1016/j.neuron.2026.07.008. Epub ahead of print. PMID: 42556335.'
-doi: 10.48324/dandi.001074/0.260807.0137
+doi: 10.48324/dandi.001074/0.260928.0807
 ethicsApproval: []
-id: DANDI:001074/0.260807.0137
+id: DANDI:001074/0.260928.0807
 identifier: DANDI:001074
+keywords:
+- neuromodulators
+- multiplexed imaging
+- micro-endoscope
+- genetically encoded sensors
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://dandiarchive.s3.amazonaws.com/dandisets/001074/0.260807.0137/assets.yaml
+- https://dandiarchive.s3.amazonaws.com/dandisets/001074/0.260928.0807/assets.yaml
 name: Multiplexed optical recording of sensors on a micro-endoscope (MORSE)
 publishedBy:
-  endDate: '2026-08-07T01:37:24.402338+00:00'
-  id: urn:uuid:3299ef62-477b-47f7-8a7d-b5402964ea00
+  endDate: '2026-09-28T08:07:08.642065+00:00'
+  id: urn:uuid:bfc4cd34-0ce5-4528-af02-fee55655db9c
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2026-08-07T01:37:24.402338+00:00'
+  startDate: '2026-09-28T08:07:08.642065+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:cdcae53b-0bb1-4bc1-9a48-27614fd2704f
+  - id: urn:uuid:ad2f15dd-226f-4075-9efb-b9164f5a8532
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
     version: 0.1.0
-relatedResource: []
+relatedResource:
+- identifier: doi:10.1016/j.neuron.2026.07.008
+  name: Kalugin PN, et al. Simultaneous, real-time tracking of many neuromodulatory
+    signals with multiplexed optical recording of sensors on a micro-endoscope. Neuron
+    (2026).
+  relation: dcite:IsDescribedBy
+  repository: Neuron
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1016/j.neuron.2026.07.008
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
-url: https://dandiarchive.org/dandiset/001074/0.260807.0137
-version: 0.260807.0137
+url: https://dandiarchive.org/dandiset/001074/0.260928.0807
+version: 0.260928.0807
 wasGeneratedBy: []
